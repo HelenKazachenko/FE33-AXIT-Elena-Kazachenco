@@ -2,6 +2,7 @@
 @import url(../css/awesome.css);
 @import url(../css/pricing.css);
 @import url(../css/customers.css);
+@import url(../css/axure.css);
 * {
 margin: 0;
 padding: 0;
@@ -10,6 +11,8 @@ list-style: none;
 text-decoration: none;   
 }
 .container {
+    position: relative;
+    z-index: 3;
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
@@ -30,8 +33,6 @@ text-decoration: none;
     display: block;
     margin: auto;
     margin-top: 34px;
-
-
 }
 section {
     padding: 80px 0;
