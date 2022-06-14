@@ -1,0 +1,34 @@
+.header {
+    text-align: center;
+    background-color: #000;
+    padding: 20px 0;
+    top: 0;
+    position: sticky;
+    z-index: 5;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+}
+.logo a::after {
+    content: "IT";
+    color: #e72424;
+}
+.navigation-axit {
+    width: 489px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-axit-item a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
