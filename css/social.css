@@ -1,0 +1,66 @@
+.social {
+    background-color: #f8efef;
+    text-align: center;
+    padding: 14px 0;
+}
+.social-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+
+}
+.social-text {
+    text-align: left;
+    margin: 0 15px;
+}
+.social-text-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+.social-text-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B
+}
+.social-icon-link {
+    width: 684px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 42px;
+}
+.fa-brands {
+    transition: 0.5s;
+    color: #86878B;
+}
+.fa-facebook-f:hover {
+    transform: rotate(360deg);
+    color: blue;
+}
+.fa-twitter:hover {
+    transform: rotate(360deg);
+    color: skyblue;
+}
+.fa-google:hover {
+    transform: rotate(360deg);
+    color: red;
+}
+.fa-pinterest-p:hover {
+    transform: rotate(360deg);
+    color: red;
+}
+.fa-instagram:hover {
+    transform: rotate(360deg);
+    color: rgb(249, 144, 174);
+}
+.fa-vk:hover {
+    transform: rotate(360deg);
+    color: royalblue;
+}
+.fa-telegram:hover {
+    transform: rotate(360deg);
+    color: #0088cc;
+}
