@@ -1,0 +1,126 @@
+.firstscreen {
+    position: relative;
+    background: url(../img/background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.firstscreen::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.firstscreen-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -15px;
+}
+.firstscreen-content {
+    margin: 0 15px;
+    width: 544px;
+}
+.firstscreen-logo {
+    color: #fff;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 42px;
+    line-height: 70px;
+    display: block;
+}
+.firstscreen-logo::after {
+    content: 'IT';
+    color: #E72424;
+}
+.firstscreen-title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    /* margin-bottom: 70px; */
+}
+.firstscreen-title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    margin: 34px 0;
+}
+.firstscreen-text {
+    color: #fff;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 42px;
+}
+.firstscreen-btn {
+    display: block;
+    width: 135px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.form {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 370px;
+    overflow: hidden;
+    margin: 0 15px;
+}
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px 40px 60px;
+}
+.form-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.form-content span {
+    color: #EC7979;
+}
+.form-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    margin-bottom: 42px;
+}
+.form-item label {
+    display: block;
+}
+.form-item input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid#BDBDBD;
+    width: 100%;
+    font-size: 25px;
+    outline: none;
+}
+.form-btn {
+    background-color: #EC7979;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    height: 53px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
