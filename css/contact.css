@@ -1,0 +1,79 @@
+.contact {
+    text-align: center;
+}
+.contact-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    margin-bottom: 68px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 -15px;
+}
+.form-content-contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-contact {
+    width: 478px;
+    margin: 0 15px;
+}
+.content-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    margin-bottom: 42px;
+    text-align: left;
+}
+.content-item label {
+    display: block;
+}
+.content-item input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid#BDBDBD;
+    width: 100%;
+    font-size: 25px;
+    outline: none;
+    
+}
+.message-contact {
+    width: 478px;
+}
+.message-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    margin-bottom: 42px;
+    text-align: left;
+}
+ .message-item label {
+    display: block;
+ }
+.message-item textarea {
+    display: block;
+    border: none;
+    border-bottom: 1px solid#BDBDBD;
+    width: 100%;
+    height: 212px;i
+    font-size: 18px;
+    outline: none;  
+    resize: none; 
+}
+.contact-btn {
+    font-size: 15px;
+    font-weight: 600;
+    width: 166px;    
+    background-color: #EC7979;
+    border: none;
+    color: #fff;
+    line-height: 42px;
+    margin: auto;
+    cursor: pointer;
+}
