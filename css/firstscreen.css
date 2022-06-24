@@ -1,6 +1,6 @@
 .firstscreen {
     position: relative;
-    background: url(../img/background\ 1.png);
+    background: url(../img/background-1\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -44,7 +44,6 @@
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    /* margin-bottom: 70px; */
 }
 .firstscreen-title::after {
     content: "";
@@ -63,15 +62,17 @@
     margin-bottom: 42px;
 }
 .firstscreen-btn {
-    display: block;
+    display: inline-block;
     width: 135px;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 40px;
     border: 1px solid #fff;
-    background-color: transparent;
-    color: #fff;
+    padding: 10px 32px;
     cursor: pointer;
+}
+.firstscreen-btn a {
+    color: #fff;
+}
+.firstscreen-btn:hover {
+    background-color: rgba(255, 255, 255, 0.25);
 }
 .form {
     background-color: #fff;
@@ -103,6 +104,9 @@
     color: #BDBDBD;
     margin-bottom: 42px;
 }
+.form-item:last-child {
+    margin-bottom: 0;
+}
 .form-item label {
     display: block;
 }
@@ -123,4 +127,9 @@
     width: 100%;
     border: none;
     cursor: pointer;
+}
+.form-btn:hover {
+    background-color: #E72424;
+    font-size: 20px;
+    box-shadow: 0px 0px 25px 2px rgb(241, 122, 122);
 }

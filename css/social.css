@@ -26,8 +26,11 @@
     line-height: 19px;
     color: #86878B
 }
-.social-icon-link {
+.social-icon {
     width: 684px;
+}
+.social-icon-link {
+    
     display: flex;
     justify-content: space-between;
     font-size: 42px;

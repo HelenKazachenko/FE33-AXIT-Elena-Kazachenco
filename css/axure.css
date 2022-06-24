@@ -55,3 +55,6 @@
     background-color: rgba(28,28,28,0);
     cursor: pointer;
 }
+.axure-btn:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}

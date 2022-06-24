@@ -24,10 +24,15 @@
     height: 70px;
     border-radius: 50%;
     border: 1px solid #E72424;
+    overflow: hidden;
     margin: 0 auto 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.icon_font {
+    font-size: 30px;
+    color: #ec7979;
 }
 .awesome-card-title {
     text-align: center;

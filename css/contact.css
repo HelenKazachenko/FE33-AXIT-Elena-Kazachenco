@@ -17,9 +17,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 70px;
 }
 .content-contact {
-    width: 478px;
+    width: 40%;
     margin: 0 15px;
 }
 .content-item {
@@ -29,6 +30,9 @@
     color: #BDBDBD;
     margin-bottom: 42px;
     text-align: left;
+}
+.content-item:last-child {
+    margin-bottom: 0;
 }
 .content-item label {
     display: block;
@@ -43,7 +47,8 @@
     
 }
 .message-contact {
-    width: 478px;
+    width: 40%;
+    margin: 0 15px;
 }
 .message-item {
     font-weight: 400;
@@ -52,6 +57,9 @@
     color: #BDBDBD;
     margin-bottom: 42px;
     text-align: left;
+}
+.message-item:last-child{
+    margin-bottom: 0;
 }
  .message-item label {
     display: block;
@@ -76,4 +84,8 @@
     line-height: 42px;
     margin: auto;
     cursor: pointer;
+}
+.contact-btn:hover {
+    background-color: #f33f3f;
+    box-shadow: 10px 10px 40px 2px #ec7979;
 }

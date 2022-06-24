@@ -43,14 +43,13 @@
 .customers-card-profil {
     margin-top: 23px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .customers-card-profil-img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    margin: 0 auto 30px;
     display: flex;
     justify-content: center;
     align-items: center;

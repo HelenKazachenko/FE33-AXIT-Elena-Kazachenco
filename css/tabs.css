@@ -56,11 +56,18 @@
 .tabs-item-text p{
     margin-bottom: 10px;
 }
+.tabs-item-text p:last-child {
+    margin-bottom: 0;
+}
 .tabs-content-link {
     width: 135px;
     background-color: #ec7979;
     padding: 11px 24px;
     cursor: pointer;
+}
+.tabs-content-link:hover {
+    background-color: #f33f3f;
+    box-shadow: 10px 10px 40px 2px #ec7979;
 }
 .tabs-content-link a {
     color: #fff;
